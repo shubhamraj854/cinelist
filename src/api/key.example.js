@@ -1,0 +1,1 @@
+   export const TMDB_KEY = "paste_your_key_here";

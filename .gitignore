@@ -1,0 +1,6 @@
+node_modules
+dist
+.parcel-cache
+src/api/key.js
+.history
+.env

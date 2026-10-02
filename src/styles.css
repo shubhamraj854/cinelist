@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+/* hide the scrollbar on horizontal movie rows but keep them scrollable */
+.no-scrollbar { scrollbar-width: none; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+
+/* LIGHT THEME: Tailwind colours are CSS variables, so we swap the grey scale and every class follows. */
+.light {
+  color-scheme: light;
+  --color-zinc-950: #f7f4ee;
+  --color-zinc-900: #ffffff;
+  --color-zinc-800: #e7e1d6;
+  --color-zinc-700: #d3cbbd;
+  --color-zinc-400: #6b655c;
+  --color-zinc-300: #4b463f;
+  --color-zinc-200: #2e2a25;
+  --color-zinc-100: #1c1a17;
+}
