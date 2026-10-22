@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "scripts": {
     "start": "parcel index.html",
-       "prebuild": "node scripts/make-key.mjs",
+      
     "build": "parcel build index.html --public-url /"
   },
   "dependencies": {
